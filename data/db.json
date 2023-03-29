@@ -1,0 +1,14 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "img": "",
+      "location": "Zagreb",
+      "title": "Luxury apartment in center of Zagreb",
+      "description": "2 Guest bedroomss with beautifule view of center of Zagreb",
+      "pets": true,
+      "price": "100",
+      "star": 4.5
+    }
+  ]
+}
