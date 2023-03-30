@@ -2,13 +2,113 @@
   "rooms": [
     {
       "id": "1",
-      "img": "",
+      "img": "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
       "location": "Zagreb",
       "title": "Luxury apartment in center of Zagreb",
       "description": "2 Guest bedroomss with beautifule view of center of Zagreb",
       "pets": true,
       "price": "100",
-      "star": 4.5
+      "star": 4.5,
+      "guests": 2
+    },
+    {
+      "id": "2",
+      "img": "https://images.unsplash.com/photo-1593006526979-5f8814c229f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "location": "Osijek",
+      "title": "Apartment in center of Osijek",
+      "description": "1 Guest bedrooms with beautifule view of center of Osijek",
+      "pets": false,
+      "price": "65",
+      "star": 3.5,
+      "guests": 1
+    },
+    {
+      "id": "3",
+      "img": "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "location": "Split",
+      "title": "Gorgeous view on the sea",
+      "description": "2 Guest bedrooms",
+      "pets": false,
+      "price": "110",
+      "star": 4.7,
+      "guests": 2
+    },
+    {
+      "id": "4",
+      "img": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "location": "Zagreb",
+      "title": "Find your quiet place outside of traffic",
+      "description": "4 Bedrooms student apartment",
+      "pets": true,
+      "price": "50",
+      "star": 3,
+      "guests": 4
+    },
+    {
+      "id": "5",
+      "img": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "location": "Osijek",
+      "title": "Luxury penthouse close to the Osijek",
+      "description": "Luxury apartment",
+      "pets": true,
+      "price": "150",
+      "star": 5,
+      "guests": 4
+    },
+    {
+      "id": "6",
+      "img": "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "location": "Split",
+      "title": "Split old town core",
+      "description": "Explore the sights of the city of Split",
+      "pets": false,
+      "price": "100",
+      "star": 4.6,
+      "guests": 2
+    },
+    {
+      "id": "7",
+      "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "location": "Zagreb",
+      "title": "Place for partys near Zagreb",
+      "description": "Let's party",
+      "pets": false,
+      "price": "85",
+      "star": 4,
+      "guests": 6
+    },
+    {
+      "id": "8",
+      "img": "https://images.unsplash.com/photo-1561501878-aabd62634533?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "location": "Split",
+      "title": "Place for partys near Split",
+      "description": "Welcome to the party boat!!!",
+      "pets": false,
+      "price": "95",
+      "star": 4.5,
+      "guests": 6
+    },
+    {
+      "id": "9",
+      "img": "https://images.unsplash.com/photo-1594130139005-3f0c0f0e7c5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1112&q=80",
+      "location": "Delnice",
+      "title": "Explore the green forest of Delnice",
+      "description": "Explore the green forest of Delnice and enjoy quiet beautifule nature",
+      "pets": true,
+      "price": "65",
+      "star": 4.5,
+      "guests": 2
+    },
+    {
+      "id": "10",
+      "img": "https://images.unsplash.com/photo-1561501878-aabd62634533?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "location": "Delnice",
+      "title": "Hotel of Delnice",
+      "description": "Enjoy wellness and spa in hotel of Delnice",
+      "pets": false,
+      "price": "55",
+      "star": 4,
+      "guests": 2
     }
   ]
 }
