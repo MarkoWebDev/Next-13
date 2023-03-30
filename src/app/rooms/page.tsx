@@ -5,7 +5,7 @@ export const metadata = {
 };
 
 const Rooms = () => {
-  return <div>Rooms</div>;
+  return <div className="text-red-600">Rooms</div>;
 };
 
 export default Rooms;

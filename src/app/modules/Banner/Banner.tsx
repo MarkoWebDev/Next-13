@@ -1,6 +1,6 @@
-"use client" // using component on client side
+"use client"; // using component on client side
 import React from "react";
-import Search from "./Search";
+import Search from "../Search/Search";
 
 const Banner = () => {
   let months: string[] = [
@@ -19,13 +19,11 @@ const Banner = () => {
 
   const date: number = new Date().getDate();
   const month: number = new Date().getMonth();
- 
-  
 
   return (
-    <div className="flex w-full items-center pt-10 justify-between px-20">
-      <div className="flex">
-        <h1 className="text-white text-5xl font-bold ">Explore HotelAgo</h1>
+    <div className="flex relative top-0 h-[75px] w-full items-center pt-10 justify-between">
+      <div className="flex ">
+        <h1 className="text-white text-5xl font-bold">Explore HotelAgo</h1>
         <div className="ml-6">
           <div className="bg-[#B39A50] w-14 h-6 rounded-t-md">
             <p className="text-[#060d17] text-sm font-normal text-center pt-1">
