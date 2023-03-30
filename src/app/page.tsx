@@ -1,12 +1,21 @@
 import React from "react";
-import Header from "./Header";
-import Banner from "./Banner";
+import Navbar from "./modules/Navbar/Navbar";
+import Banner from "./modules/Banner/Banner";
+import Main from "./modules/Main/Main";
+import WrapperComponent from "./shared/Wrapper";
+import Footer from "./modules/Footer/Footer";
+import Blog from "./modules/Blog/Blog";
 
 const Home = () => {
   return (
     <div>
-      <Header></Header>
-      <Banner></Banner>
+      <Navbar></Navbar>
+      <WrapperComponent>
+        <Banner></Banner>
+        <Main></Main>
+        <Blog></Blog>
+        <Footer></Footer>
+      </WrapperComponent>
     </div>
   );
 };

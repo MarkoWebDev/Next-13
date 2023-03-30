@@ -1,4 +1,6 @@
 import "@/styles/globals.css";
+import 'react-date-range/dist/styles.css'
+import "react-date-range/dist/theme/default.css";
 
 //replacing old head.js file for metadata
 export const metadata = {

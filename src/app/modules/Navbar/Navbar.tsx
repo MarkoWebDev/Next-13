@@ -28,7 +28,7 @@ const Header = () => {
           : "bg-[#060D17] shadow-md py-2 w-full border-b border-b-[#E4CA3E]"
       }
     >
-      <div className="flex items-center justify-between px-20">
+      <div className="flex items-center justify-between px-28">
         <div>
           <h2 className="text-[#B39A50] text-2xl font-bold font-serif">
             HotelAgo
