@@ -1,3 +1,15 @@
+import "@/styles/globals.css";
+
+//replacing old head.js file for metadata
+export const metadata = {
+  title: {
+    default: "HotelAgo",
+    template: "%s | Hotel",
+    keywords: ["Next JS, React JS, Tailwind CSS, JSON-server, Javacript"],
+    description: 'Trying new next js 13 features',
+  },
+};
+
 export default function DashboardLayout({
   children,
 }: {
