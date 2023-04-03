@@ -25,6 +25,7 @@ const MainItem = ({ id, img, title }: MainItemProps) => {
 
           <Image
             className=" rounded-lg z-10"
+            quality={100}
             src={img}
             alt={title}
             width={120}
@@ -32,7 +33,7 @@ const MainItem = ({ id, img, title }: MainItemProps) => {
           />
         </div>
         <div>
-          <p className="text-white font-black text-sm ml-2">{title}</p>
+          <p className="text-[#B39A50] font-black text-sm ml-2">{title}</p>
         </div>
       </div>
     </div>

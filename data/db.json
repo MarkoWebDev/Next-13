@@ -2,14 +2,16 @@
   "rooms": [
     {
       "id": "1",
-      "img": "https://images.unsplash.com/photo-1631049035182-249067d7618e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "img": "https://images.unsplash.com/photo-1593006526979-5f8814c229f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "location": "Zagreb",
       "title": "Luxury apartment in center of Zagreb",
       "description": "2 Guest bedroomss with beautifule view of center of Zagreb",
       "pets": true,
       "price": "100",
       "star": 4.5,
-      "guests": 2
+      "guests": 2,
+      "startDate": "5.4.2023",
+      "endDate": "10.4.2023"
     },
     {
       "id": "2",
@@ -20,7 +22,9 @@
       "pets": false,
       "price": "65",
       "star": 3.5,
-      "guests": 1
+      "guests": 1,
+      "startDate": "7.4.2023",
+      "endDate": "10.4.2023"
     },
     {
       "id": "3",
@@ -31,7 +35,9 @@
       "pets": false,
       "price": "110",
       "star": 4.7,
-      "guests": 2
+      "guests": 2,
+      "startDate": "4.4.2023",
+      "endDate": "13.4.2023"
     },
     {
       "id": "4",
@@ -42,7 +48,9 @@
       "pets": true,
       "price": "50",
       "star": 3,
-      "guests": 4
+      "guests": 4,
+      "startDate": "8.4.2023",
+      "endDate": "20.4.2023"
     },
     {
       "id": "5",
@@ -53,7 +61,9 @@
       "pets": true,
       "price": "150",
       "star": 5,
-      "guests": 4
+      "guests": 4,
+      "startDate": "7.4.2023",
+      "endDate": "15.4.2023"
     },
     {
       "id": "6",
@@ -64,7 +74,9 @@
       "pets": false,
       "price": "100",
       "star": 4.6,
-      "guests": 2
+      "guests": 2,
+      "startDate": "9.4.2023",
+      "endDate": "17.4.2023"
     },
     {
       "id": "7",
@@ -75,7 +87,9 @@
       "pets": false,
       "price": "85",
       "star": 4,
-      "guests": 6
+      "guests": 6,
+      "startDate": "10.4.2023",
+      "endDate": "25.4.2023"
     },
     {
       "id": "8",
@@ -86,7 +100,9 @@
       "pets": false,
       "price": "95",
       "star": 4.5,
-      "guests": 6
+      "guests": 6,
+      "startDate": "7.4.2023",
+      "endDate": "28.4.2023"
     },
     {
       "id": "9",
@@ -97,7 +113,9 @@
       "pets": true,
       "price": "65",
       "star": 4.5,
-      "guests": 2
+      "guests": 2,
+      "startDate": "11.4.2023",
+      "endDate": "21.4.2023"
     },
     {
       "id": "10",
@@ -108,7 +126,9 @@
       "pets": false,
       "price": "55",
       "star": 4,
-      "guests": 2
+      "guests": 2,
+      "startDate": "12.4.2023",
+      "endDate": "29.4.2023"
     }
   ]
 }

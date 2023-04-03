@@ -21,7 +21,7 @@ const Banner = () => {
   const month: number = new Date().getMonth();
 
   return (
-    <div className="flex relative top-0 h-[75px] w-full items-center pt-10 justify-between">
+    <div className="flex relative top-0 h-[75px] w-full items-center pt-20 justify-between">
       <div className="flex ">
         <h1 className="text-white text-5xl font-bold">Explore HotelAgo</h1>
         <div className="ml-6">

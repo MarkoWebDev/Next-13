@@ -21,20 +21,18 @@ const getHotelInfo = async () => {
     throw new Error("Failed to fetch data, something went wrong"); // on develop enviroment we gonna get this error, but on production we gonna get error from Error component
   }
   const data: MainProps[] = await res.json();
-  console.log("data", data);
   return data;
 };
 
 const Main = async () => {
   const items: MainProps[] = await getHotelInfo();
-  console.log("items", items);
   return (
     <div className="pt-44">
-      <h2 className="text-white text-4xl font-medium pb-4">
+      <h2 className="text-white text-4xl font-bold pb-4">
         Best offer right now
       </h2>
       <div className="grid grid-cols-3 gap-4">
-        {items.map((item) => {
+        {items.map((item: MainProps) => {
           return (
             <div key={item.id}>
               <MainItem
