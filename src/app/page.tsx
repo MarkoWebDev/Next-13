@@ -13,7 +13,9 @@ const Home = () => {
       <WrapperComponent>
         <Banner></Banner>
         <Main></Main>
-        <Blog></Blog>
+        <div className="flex items-center justify-center">
+          <Blog></Blog>
+        </div>
         <Footer></Footer>
       </WrapperComponent>
     </div>

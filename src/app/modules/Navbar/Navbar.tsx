@@ -1,12 +1,11 @@
 "use client"; // using component on client side
 import React, { useState, useEffect, useCallback } from "react";
 
-
 const Header = () => {
   const [scroll, setScroll] = useState<boolean>(false);
 
   const handleScroll = useCallback(() => {
-    if (window.screenY > 50) {
+    if (window.scrollY > 50) {
       setScroll(true);
     } else {
       setScroll(false);
@@ -14,18 +13,18 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [handleScroll]);
 
   return (
     <header
       className={
         scroll
-          ? "bg-white shadow-md py-2 w-full border-b border-b-[#E4CA3E]"
-          : "bg-[#060D17] shadow-md py-2 w-full border-b border-b-[#E4CA3E]"
+          ? "bg-[#10161D] shadow-md py-2 top-0 z-30 w-full fixed border-b border-b-[#E4CA3E]"
+          : "bg-[#060D17] shadow-md py-2 fixed z-30 top-0 w-full border-b border-b-[#E4CA3E]"
       }
     >
       <div className="flex items-center justify-between px-28">
@@ -34,8 +33,7 @@ const Header = () => {
             HotelAgo
           </h2>
         </div>
-        <div>Search</div>
-        <div className="flex items-center bg-white shadow-md p-2 rounded-3xl cursor-pointer hover:bg-gray-50 ease-out">
+        <div className="flex items-center bg-[#222C38] shadow-md p-2 rounded-2xl cursor-pointer hover:bg-gray-300 ease-out duration-300">
           <p className="text-[#B39A50] text-base font-medium mr-2">Favorites</p>
           <div>
             <svg
